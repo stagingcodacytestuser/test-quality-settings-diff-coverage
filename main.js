@@ -12,7 +12,6 @@ import Main3 from '../views/main.jsx';
 import Main4 from '../views/main.jsx';
 
 
-
 const persistedState = loadState();
 const store = createStore(rootReducer,
     persistedState,
